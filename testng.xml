@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BasicTests" parallel="methods" thread-count="10">
+    <test name="Sanity Testcases">
+        <classes>
+            <class name="LaunchURLTest"/>
+        </classes>
+    </test>
+</suite>
